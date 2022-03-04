@@ -50,10 +50,6 @@ body {
 }
 
 .parent-container2 h3 {
-  border: thin black solid;
-  border-top: none;
-  border-left: none;
-  border-right: none;
   text-align: center;
 }
 .child-three li {
