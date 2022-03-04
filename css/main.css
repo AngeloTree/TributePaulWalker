@@ -18,6 +18,12 @@ header .parent-container {
   text-align: center;
 }
 
+.child-one h1 {
+  background-image: linear-gradient(45deg, #2b8cd8, #1ee326);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .child-two {
   text-align: center;
   border: thin black solid;
@@ -29,7 +35,7 @@ header .parent-container {
 }
 
 body {
-  background-color: lightskyblue;
+  background-color: #fbf1e1;
   text-align: center;
 }
 
@@ -44,9 +50,13 @@ body {
 }
 
 .parent-container2 h3 {
-  color: blue;
+  border: thin black solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  text-align: center;
 }
 .child-three li {
-  list-style-type: none;
+  list-style-type: bullet;
   margin-top: 10px;
 }
