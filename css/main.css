@@ -1,39 +1,52 @@
-header {
-  display: block;
-  text-align: center;
-  font-family: "Times New Roman", Times, serif;
+header .parent-container {
+  margin: 20px auto;
+  width: 400px;
+  height: 400px;
 }
-header img {
+
+.parent-container img {
   object-fit: cover;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  border-radius: 50px;
   height: 300px;
-  border-radius: 100px;
   margin-bottom: 0%;
 }
 
-header h1 {
-  margin-top: 10px;
-  margin-bottom: 0%;
+.child-one {
+  text-align: center;
 }
 
-header p {
-  margin-top: 5px;
+.child-two {
+  text-align: center;
   border: thin black solid;
-  padding-bottom: 0.5rem;
   border-top: none;
   border-left: none;
   border-right: none;
-  padding: 0.5em;
   font-style: italic;
+  font-size: 18px;
 }
 
 body {
   background-color: lightskyblue;
-  display: block;
   text-align: center;
+}
+
+.introduction {
+  margin-top: 50px;
+  font-style: oblique;
+}
+
+.parent-container2 {
+  margin-top: 25px;
+  text-align: left;
+}
+
+.parent-container2 h3 {
+  color: blue;
+}
+.child-three li {
+  list-style-type: none;
+  margin-top: 10px;
 }
